@@ -17,7 +17,7 @@ The code itself can be found in the uploaded .bas file.
 
 Lines of code can be removed/commented out or modified as required to make necessary or preferred adjustments to the formatting. For more details on understanding the code, see [Microsoft's VBA Reference guide](https://learn.microsoft.com/en-us/office/vba/api/overview/word).\
 \
-To provide a brief overview:\
+To provide an overview:\
 Each of the selectable columns is assigned a shorter alias for reference (e.g. ActiveDocument.Tables(1).Columns(2) corresponds to the second column from the left in the table in the document, and has been given the name "SourceColumn2" since it corresponds to the source column in this example export).\
 ActiveDocument.Tables(1).Rows(1) corresponds to the first row of the table and has been given the alias "HeaderRow" in this case.\
 The "With Selection.PageSetup" and subsequent five lines culminating in "End With" reduce the margins to 1cm on all sides of the page.\
