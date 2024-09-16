@@ -1,7 +1,7 @@
 # ReformatRTFMacro
 
 This is a macro I've written using VBA for Microsoft Word to resize and reformat the table cells of a translation project exported as an RTF in six-column-format.\
-The code in question is based on a default export of a project created in the CAT tool Déjà Vu, with the Filename column also enabled to be shown on export. (i.e. six columns: ID, Source, Target, Comments, Status, and Filename).\
+The code in question is based on a default export of a project created in the CAT tool Déjà Vu, with the Filename column also enabled to be shown on export (i.e. six columns: ID, Source, Target, Comments, Status, and Filename).\
 However, it can also be easily adapted for exports that don't include the filename column, as well as for tabular RTF exports from other CAT tools (e.g. MemoQ), provided that the precise requirements (i.e. the number and order of the data columns) are taken into account.\
 Examples of the applied macro can be seen in the "before" (Example RTF File for ReformatRTFMacro.docx) and "after" (Example RTF File for ReformatRTFMacro (with Macro Applied).docx) documents uploaded to this repository.\
 The code itself can be found in the uploaded .bas file.
