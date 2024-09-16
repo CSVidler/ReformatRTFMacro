@@ -34,8 +34,12 @@ Set HeaderRow = ActiveDocument.Tables(1).Rows(1)
         Selection.Shading.BackgroundPatternColor = -603917569
     SourceColumn2.SetWidth ColumnWidth:=Application.CentimetersToPoints(5), RulerStyle:= _
         wdAdjustFirstColumn
+    SourceColumn2.Select
+        Selection.Font.Size = 9
     TargetColumn3.SetWidth ColumnWidth:=Application.CentimetersToPoints(5), RulerStyle:= _
         wdAdjustFirstColumn
+    TargetColumn3.Select
+        Selection.Font.Size = 9
     CommentsColumn4.SetWidth ColumnWidth:=Application.CentimetersToPoints(4), RulerStyle:= _
         wdAdjustFirstColumn
     CommentsColumn4.Select
