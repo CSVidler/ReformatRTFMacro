@@ -44,7 +44,7 @@ Set HeaderRow = ActiveDocument.Tables(1).Rows(1)
         wdAdjustFirstColumn
     StatusColumn5.Select
         Selection.Font.Size = 8
-    FilenameColumn6.SetWidth ColumnWidth:=Application.CentimetersToPoints(3), RulerStyle:= _
+    FilenameColumn6.SetWidth ColumnWidth:=Application.CentimetersToPoints(2.5), RulerStyle:= _
         wdAdjustFirstColumn
     FilenameColumn6.Select
         Selection.Font.Size = 8
