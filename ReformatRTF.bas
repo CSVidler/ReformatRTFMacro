@@ -59,4 +59,3 @@ Set HeaderRow = ActiveDocument.Tables(1).Rows(1)
         Selection.Shading.BackgroundPatternColor = -603923969
 
 End Sub
-
